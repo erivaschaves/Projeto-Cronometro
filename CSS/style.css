@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/*Configurações gerais de estilo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Definindo altura e largura totais do elemento*/
+}
+
+/*Configurações da tag body*/
+body{
+    font-family: Arial /*Definindo a fonte dos elementos*/
+}
