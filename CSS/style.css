@@ -10,3 +10,65 @@
 body{
     font-family: Arial /*Definindo a fonte dos elementos*/
 }
+
+/*Configurações da class container*/
+.container{
+    width: 100vw;/*Definindo largura*/
+    height: 100vh;/*Definindo altura*/
+    background: #083546; /*Definindo cor de fundo*/
+    display: flex;/*Tornando o container flexivel*/
+    flex-direction: column; /*Definindo a direção do itens do container*/
+    justify-items: center;/*Definindo espaços entre e ao redor dos itens ao centro*/
+    align-items: center;/*Alinhando itens ao centro*/
+}
+
+/*Configurações da class cronômetro */
+.cronometro{
+    min-width: 40%;/*Definindo a largura mínima do elemento*/
+    margin-top: 10rem; /*Definindo a distância para margin superior*/
+    margin-bottom: 2rem; /*Definindo a distância para margin inferior*/
+    padding: 2rem; /*Definindo distância dos elementos para borda*/
+    text-align: center; /*Alinhando texto ao centro*/
+    background: #EEE; /*Definindo cor de fundo*/
+    border-radius: 1rem; /*Arredondando as bordas do elemento*/
+}
+
+/*Configurações da do h1 da class cronometro*/
+.cronometro h1{
+    font-size: 3rem; /*Definndo tamanho da fonte*/
+    margin: 1rem 0;/*Definindo distancia do h1 para margin*/
+}
+
+/*Configurações da dos botões da class cronometro*/
+.cronometro button {
+    width: 4.5rem;
+    height: 2.5rem;
+    margin: 1rem 0.5rem;
+    cursor: pointer; /*Modifica o cursor do mouse para pointer*/
+    border: 0;/*Zerando a borda*/
+    border-radius: 0.5rem;
+    color: #EEE;
+    font-size: 1rem;
+    font-weight: bold; /*Definindo a fonte para negrito*/
+}
+
+/*Configurações do botão iniciar*/
+.cronometro #iniciar {
+    background: #58bc5d;
+}
+
+/*Configurações do botão pausar*/
+.cronometro #pausar {
+    background: #777;
+}
+
+/*Configurações do botão parar*/
+.cronometro #parar {
+    background: #ba3535;
+}
+
+
+
+
+
+
